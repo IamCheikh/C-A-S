@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  background-image: url("img2/240_F_88336441_7acDcmr7dgEVSJ016JJuAoXDWlYvwEwu.jpg");
+  background: #F0F0F0;
   font: 14px/20px Arial, Sans-Serif;
   color: #555;
   margin:0;
@@ -66,8 +66,8 @@ nav {
 }
 #menu-icon {
   display: hidden;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   background-image: url("https://cdn3.iconfinder.com/data/icons/arrow-icons-4/512/BT_arrow_bottom-32.png");
 }
 a:hover#menu-icon {
@@ -90,12 +90,15 @@ nav ul li {
 }
 #content {
   margin: 0 auto;
-  max-width: 1000px;
-  margin-top: 110px;
+  max-width: 500px;
+  margin-top: 100px;
+  height: auto;
 }
 .blueberry {
-  max-width: 960px;
-  margin-top: 10px;
+  max-width: 660px;
+  margin-top: auto;
+  border: 10px solid #F0F0F0;
+  background-color: #F0F0F0;
 }
 section {
   width: 29%;
@@ -156,10 +159,9 @@ audio {
   display: none;
 }
 span img {
-  border: 4px solid black;
-  float: right;
-  margin: 100px;
-  align-items: center;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #999;
 }
 
    @media screen and (max-width: 478px){
@@ -207,9 +209,15 @@ span img {
        padding: 0;
      }
      span img {
-       border: 4px solid black;
-       float: right;
-       /*margin: 20px;*/
+       width: 300px;
+       height: 300px;
+       border: 1px solid #999;
+       margin-top: 50px;
+     }
+     h1 {
        text-align: center;
+       font-size: 180%;
+       line-height: 120%;
+       padding: 5% 0;
      }
 }
